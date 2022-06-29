@@ -54,24 +54,15 @@ class ViewController: UIViewController {
     }
     
     private func redSetupSlider() {
-        redLichtSlider.value = 0
-        redLichtSlider.minimumValue = 0
-        redLichtSlider.maximumValue = 1
-        redLichtSlider.minimumTrackTintColor = .red
+       
     }
     
     private func greenSetupSlider() {
-        greenLichtSlider.value = 0
-        greenLichtSlider.minimumValue = 0
-        greenLichtSlider.maximumValue = 1
-        greenLichtSlider.minimumTrackTintColor = .green
+        
     }
     
     private func blueSetupSlider() {
-        blueLichtSlider.value = 0
-        blueLichtSlider.minimumValue = 0
-        blueLichtSlider.maximumValue = 1
-        blueLichtSlider.minimumTrackTintColor = .blue
+        
     }
     private func changeColor() {
         colorView.backgroundColor = UIColor(
